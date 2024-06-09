@@ -1,0 +1,5 @@
+tasks:
+  - name: Install dependencies
+    command: pip install -r requirements.txt
+  - name: Run automation script
+    command: python automation_script.py
